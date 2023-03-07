@@ -10,4 +10,5 @@ List<Form> forms = new List<Form>()
 for (int i =0; i< forms.Count(); i++)
 {
     Console.WriteLine(forms[i].Name);
+    Console.WriteLine(forms[i].Status);
 }
